@@ -40,6 +40,8 @@ print(r"无视转义字符\n")
 str02="ABCDEFGHIJKLMN"
 # 只打印索引所在位置的字符
 print(str02[0])
+# 取前几位
+print(str02[:3])
 # 从起始索引开始，一直打印到最后
 print(str02[0:])
 # 前包后不包
